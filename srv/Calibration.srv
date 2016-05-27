@@ -1,0 +1,2 @@
+bool withPersistence  # true if ACC calibration should be stored in EEPROM, normally use false
+---

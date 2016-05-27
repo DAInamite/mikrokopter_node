@@ -1,0 +1,5 @@
+uint8 front  # front-motor, range [0, 255], suggestion: 6
+uint8 rear  # pitch value, range [0, 255], suggestion: 6
+uint8 right  # yaw value, range [0, 255], suggestion: 6
+uint8 left  # thrust value, range [0, 255], suggestion: 6
+---

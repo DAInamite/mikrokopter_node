@@ -1,0 +1,8 @@
+<launch>
+	<node pkg="mikrokopter_node" type="mikrokopter_node" 
+			name="mikrokopter" output="screen"
+			><!--launch-prefix="gdbserver localhost:10000"> REMOVE for debugging-->
+			<param name="tty_port" type="string" value="/dev/ttyUSB_mk"/>  
+	</node>
+</launch>
+
